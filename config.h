@@ -93,7 +93,7 @@
 #define CFG_IS_TO_RF          false   // forward packets from internet to radio based on CFG_APRS_FILTER
 #define CFG_BEACON            false   // enable perdiodic beacon from CFG_APRS_RAW_BKN
 #define CFG_TEXT_PACKETS      true   // enable aprs TNC2 text packets instead of binary for interoperability with other projects (disables KISS + AX.25!)
-#define CFG_TEXT_PACKETS_3    false   // true - enable aprs-lora 3 byte prefix '<', 0xff, 0x01
+#define CFG_TEXT_PACKETS_3    true   // true - enable aprs-lora 3 byte prefix '<', 0xff, 0x01
 
 // Frequency correction for narrow band bandwidths
 #define CFG_FREQ_CORR         false   // true - correct own frequency based on received packet
