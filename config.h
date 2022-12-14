@@ -23,7 +23,7 @@
 // change pinouts if not defined through native board LORA_* definitions
 #ifndef LORA_RST
 #pragma message("LoRa pin definitions are not found, redefining...")
-#define LORA_RST              27
+#define LORA_RST              26
 #define LORA_IRQ              12
 #endif
 
